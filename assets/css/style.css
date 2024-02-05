@@ -33,8 +33,43 @@ body{
   width: 70%;
 }
 
+.card{
+  display: flex;
+  flex-direction: row;
+}
 
+/* DEBUG */
 .debug{
   background-color: lightblue;
   border: 1px solid black;
+  min-height: 50px;
 }
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 992px){
+  .card-text{
+    display: none;
+  }
+  
+}
+
+
+@media screen and (max-width: 542px){
+  .col-messaggi{
+    width: 100%;
+  }
+  .col-contatti{
+    display: none;
+  }
+}
+
+
+
