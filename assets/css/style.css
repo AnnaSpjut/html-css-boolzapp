@@ -39,9 +39,6 @@ body{
   flex-direction: row;
 }
 
-.contacts{
-  overflow-y: scroll;
-}
 
 .top-bar,
 .bottom-bar{
@@ -62,7 +59,6 @@ body{
 .chat{
   height: 100%;
   background-image: url(/assets/img/mine.jpg);
-  overflow-y: scroll;
 }
 
 /* DEBUG */
