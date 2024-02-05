@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Lato', sans-serif;
-  height: 100vh;
+  height: 670px;
   background:linear-gradient(
     to top,
     #DBDBD3 80%,
@@ -16,7 +16,7 @@ body{
 
 .container{
   max-width: 990px;
-  height: 100%;
+  height: 663px;
   margin: 15px auto;
 }
 
@@ -34,13 +34,39 @@ body{
 }
 
 .card{
+  height: 70px;
   display: flex;
   flex-direction: row;
 }
 
+.contacts{
+  overflow-y: scroll;
+}
+
+.top-bar,
+.bottom-bar{
+  height: 50px;
+  background-color: #EAEAEA;
+}
+
+.notification{
+  height: 65px;
+  background-color: #8EDAFC;
+}
+
+.input{
+  height: 45px;
+  background-color: #EAEAEA;
+}
+
+.chat{
+  height: 100%;
+  background-image: url(/assets/img/mine.jpg);
+  overflow-y: scroll;
+}
+
 /* DEBUG */
-.debug{
-  background-color: lightblue;
+.debug,.card{
   border: 1px solid black;
   min-height: 50px;
 }
