@@ -6,4 +6,35 @@
 
 body{
   font-family: 'Lato', sans-serif;
+  height: 100vh;
+  background:linear-gradient(
+    to top,
+    #DBDBD3 80%,
+    #009688 20%
+  );
+}
+
+.container{
+  max-width: 990px;
+  height: 100%;
+  margin: 15px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-contatti{
+  width: 30%;
+}
+
+.col-messaggi{
+  width: 70%;
+}
+
+
+.debug{
+  background-color: lightblue;
+  border: 1px solid black;
 }
