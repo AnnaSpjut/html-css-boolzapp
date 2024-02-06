@@ -19,10 +19,19 @@
 
 
 <body>
-  <div class="main">
+  <div class="main d-flex">
     <div class="container">
       <div class="contact-content debug">
-        <div class="topbar-left"></div>
+        <div class="topbar-left d-flex">
+          <div class="profile">
+            <img src="assets/img/avatar_io.jpg" alt="">
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-circle-notch"></i>
+            <i class="fa-solid fa-message"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
         <div class="notification debug"></div>
         <div class="input-search debug"></div>
         <div class="contacts">
@@ -30,9 +39,29 @@
       </div>
       
       <div class="message-content debug">
-        <div class="topbar-right debug"></div>
+        <div class="topbar-right d-flex debug">
+          <div class="active-contact d-flex">
+            <img src="assets/img/avatar_1.jpg" alt="">
+            <div>
+              <p class="name">Michele</p>
+              <p class="time">Ultimo accesso oggi alle 16:26</p>
+            </div>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-paperclip"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
         <div class="chat debug"></div>
-        <div class="bottombar-right debug"></div>
+        <div class="bottombar-right d-flex debug">
+          <div class="b-left">
+            <i class="fa-regular fa-face-smile"></i>
+            <input type="text" placeholder="Scrivi un messaggio">
+          </div>
+          <div class="b-right">
+            <i class="fa-solid fa-microphone"></i>
+          </div>
         </div>
       </div>
     </div>
