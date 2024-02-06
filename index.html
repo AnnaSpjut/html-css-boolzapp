@@ -16,12 +16,14 @@
   <title>Boolzapp UI</title>
 </head>
 
-
+<!-- TODO: 
+sistemare bell-slash + input-search-->
 
 <body>
   <div class="main d-flex">
     <div class="container">
-      <div class="contact-content debug">
+       <!-- LEFT SIDE -->
+      <div class="contact-content">
         <div class="topbar-left d-flex">
           <div class="profile">
             <img src="assets/img/avatar_io.jpg" alt="">
@@ -32,14 +34,82 @@
             <i class="fa-solid fa-ellipsis-vertical"></i>
           </div>
         </div>
-        <div class="notification debug"></div>
-        <div class="input-search debug"></div>
+        <div class="notification">
+          <i class="fa-solid fa-bell-slash"></i>
+          <div>
+            <p>Ricevi notifiche di nuovi messaggi</p>
+            <a href="#">Attiva notifiche desktop</a>
+          </div>
+        </div>
+        <div class="input-search d-flex">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input type="text" placeholder="Cerca o inizia una nuova chat">
+        </div>
         <div class="contacts">
+          <div class="card">
+            <img src="assets/img/avatar_1.jpg" alt="">
+            <div>
+              <p class="name">Michele</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/avatar_2.jpg" alt="">
+            <div>
+              <p class="name">Fabio</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/avatar_3.jpg" alt="">
+            <div>
+              <p class="name">Samuele</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/avatar_4.jpg" alt="">
+            <div>
+              <p class="name">Alessandro B.</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/avatar_5.jpg" alt="">
+            <div>
+              <p class="name">Alessandro L.</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/avatar_6.jpg" alt="">
+            <div>
+              <p class="name">Claudia</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/avatar_7.jpg" alt="">
+            <div>
+              <p class="name">Federico</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/avatar_8.jpg" alt="">
+            <div>
+              <p class="name">Davide</p>
+              <p class="preview">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div> 
         </div>
       </div>
       
-      <div class="message-content debug">
-        <div class="topbar-right d-flex debug">
+    <!-- RIGHT SIDE     -->
+      <div class="message-content">
+        <div class="topbar-right d-flex">
           <div class="active-contact d-flex">
             <img src="assets/img/avatar_1.jpg" alt="">
             <div>

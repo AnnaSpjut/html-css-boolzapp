@@ -52,31 +52,10 @@ i{
   margin: 10px;
 }
 
-.b-left input{
-  width: 100vh;
-  padding: 15px 10px;
-  border: none;
-  font-size: 15px;
-}
-
-::placeholder{
-  color: #B1B1B1;
-}
-
 .time{
   font-size: 13px;
   color: #B1B1B1;
 }
-
-
-
-
-
-
-
-
-
-
 
 .contact-content{
   width: 370px;
@@ -100,9 +79,35 @@ i{
   color: #6C7376;
 }
 
+.b-left input{
+  width: 100vh;
+  padding: 15px 10px;
+  border: none;
+  font-size: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+::placeholder{
+  color: #B1B1B1;
+}
+
 .notification{
   height: 80px;
   background-color: #8EDAFC;
+  display: flex;
+  align-items: center;
+}
+
+.notification i{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+a{
+  font-size: 13px;
+  color: #537B8D;
 }
 
 .input-search{
@@ -110,9 +115,39 @@ i{
   background-color: #EAEAEA;
 }
 
+.input-search input{
+  width: 100vh;
+  padding: 10px 5px;
+  border: none;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.search-icon{
+  background-color: white;
+  margin-left: 5px;
+}
+
+.input-search i{
+  color: #B1B1B1;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
 .contacts{
   height: calc(100% - 200px);
   overflow-y: scroll;
+}
+
+.card{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid rgba(177,177, 177, .2);
 }
 
 .chat{
@@ -121,12 +156,11 @@ i{
   overflow-y: scroll;
 }
 
-
-/* DEBUG */
-.debug,.card{
-  border: 1px solid black;
-  min-height: 50px;
+.card .preview{
+  font-size: 13px;
+  color: #B1B1B1;
 }
+
 
 
 
@@ -142,6 +176,11 @@ i{
 
   .contact-content{
     width: 90px;
+  }
+
+  .notification,
+  .input-search{
+    display: none;
   }
 }
 
