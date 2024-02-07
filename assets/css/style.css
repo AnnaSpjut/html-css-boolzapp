@@ -150,6 +150,16 @@ a{
   border: 1px solid rgba(177,177, 177, .2);
 }
 
+.hour p{
+  font-size: 13px;
+  color: #B1B1B1;
+  margin-left: 70px;
+  margin-bottom: 15px;
+}
+
+
+
+
 .chat{
   background-image: url(/assets/img/mine.jpg);
   height: calc(100% - 140px);
